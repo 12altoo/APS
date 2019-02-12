@@ -1,0 +1,13 @@
+1.Pascal's Traingle uses binomial coefficiants.
+2.There are two ways to get binomial coefficiants
+  a) Reursive
+  b) Dynamic programing
+  
+3.The recurance relation to generate binomial coefficiants is
+  C(0,n)=C(0,0)=1
+  C(n,k)=C(n-1,k-1)+C(n-1,k) where n>k>0.
+  
+4.In dyanmic programing we can add the two previous terms in array to get the net number.
+5.The dynamic table uses n*k bytes of memory.
+6.The recursive program takes (2^n - 1)*8 bytes,since for every recursive function call a new memory stack is created.
+7.From the above points we can say that dynamic programing takes less memory and is more efficiant.
