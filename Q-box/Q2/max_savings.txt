@@ -1,0 +1,30 @@
+Difficulty : Meduim
+
+There is a function in Abdul's house.For the function Abdul is given the job of getting gifts for every member who is been invited for the funtion.
+Abdul goes to the market which contains 'N' no.of shops in a line.each shop has it's own discount.You are given the savings done by Abdul if he visits each shop.
+If Abdul visits two adjacent shops he will not get discount from any shop.Find the maximum savings that Abdul can make.
+
+
+Constraints:
+	1<N<10000
+	1<(saving of each shop) a[i]<10^6
+
+input format:
+	input contains 2 lines.
+	1.The number of shops in the market.
+	2.follwed by the saving done in each shop.
+
+output :
+	Output contains a single value which gives the maximum savings done by Abdul
+
+Testcase:
+input
+	8
+	3 3 7 3 4 9 1 2
+output :
+	21
+
+explaination:
+	After visiting non adjacent shops the maximum saving done by Abdul is   21
+
+concept used is stolen value problem		
