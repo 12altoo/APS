@@ -2,7 +2,7 @@ Title:Max-min_sum-difference
 Level:Easy
 
 Problem Statement:
-Given an array ‘a’ of ‘N’ integers find the minimum and maximum array element and print their sum and difference. 
+Given an array â€˜aâ€™ of â€˜Nâ€™ integers find the minimum and maximum array element and print their sum and difference. 
 If all the array elements are same (i.e No minimum) then print NULL as the output.
 
 Input Format: 
