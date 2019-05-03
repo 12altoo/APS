@@ -1,0 +1,40 @@
+Title:Max-min_sum-difference
+Level:Easy
+
+Problem Statement:
+Given an array ‘a’ of ‘N’ integers find the minimum and maximum array element and print their sum and difference. 
+If all the array elements are same (i.e No minimum) then print NULL as the output.
+
+Input Format: 
+The first line contains a single integer N denoting the size of the array.
+The second line contains n space separated array values.
+
+
+Constraints:
+2<=N<=100
+-10000<= a[i] <=10000
+
+
+Output Format:
+Two space separated values denoting the sum and difference of the maximum and minimum array elements.
+
+
+Sample Test Cases:
+Sample input 0:
+7
+1 5 6 9 8 7 3
+Sample output 0:
+10 8
+Explanation 0:
+The minimum element is 1 and maximum element is 9,so sum=10 and difference =8
+
+
+
+Sample input 1:
+4
+3 3 3 3
+Sample output 1:
+NULL NULL
+Explanation 1:
+All the array elements are same, therefore no minimum element.
+
